@@ -13,9 +13,42 @@
 🚀 Features
 
   ✔️ Insert new student records dynamically.
+  
   ✔️ Delete a student by their ID.
+  
   ✔️ Search for students by ID or Name.
+  
   ✔️ Display all student records in order of entry.
+  
   ✔️ Reverse display of student records (using doubly linked list).
+  
   ✔️ Clone the list to create a backup copy.
+  
   ✔️ Calculate the average GPA of all students.
+  
+🧱 Data Structure Used
+
+🔹 Doubly Linked List
+
+
+      typedef struct Student {
+
+      int id;
+    
+      char name[50];
+    
+      char dept[30];
+    
+      float gpa;
+    
+      struct Student *prev, *next;
+    
+      } Student;
+
+
+  *Each student record is a node in the doubly linked list.
+
+  *prev pointer points to the previous record.
+
+  *next pointer points to the next record.
+
